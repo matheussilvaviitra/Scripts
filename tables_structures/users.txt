@@ -51,3 +51,4 @@ favorite_quotation Citação favorita
 destroy_soon Destrua logo
 recovery_token Token de recuperação
 channel Canal 
+#last_seen_at #parece uma métrica interessante, indica uma janela de tempo na qual podemos explorar

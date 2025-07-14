@@ -8,3 +8,4 @@ grade Nota obtida
 duration Duração na realização do exercício
 created_at Data/hora da criação
 updated_at Data/hora da última atualização
+#showed_solution # esse campo seria interessante com outro campo solution_view_count, poderia servir como metrica de engajamento 

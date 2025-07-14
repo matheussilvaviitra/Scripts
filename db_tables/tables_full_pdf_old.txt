@@ -1,0 +1,57 @@
+alternatives id, text, question_id, correct, created_at, updated_at
+asset_reports id, done, subject_id, lecture_id, enrollment_id, updated_at
+audiences id, name
+audiences_courses audience_id, course_id
+authentications id, user_id, provider, uid, created_at, updated_at
+canvas id, user_id, client_application_id, container_id, container_type, created_at, updated_at, url, name
+chat_message_associations id, chat_id, chat_message_id, created_at, updated_at
+chat_messages id, user_id, contact_id, created_at, updated_at, body, conversation_id
+chats id, user_id, contact_id, created_at, updated_at
+choices id, user_id, correct, alternative_id, result_id, question_id, created_at, updated_at
+ckeditor_assets id, data_file_name, data_content_type, data_file_size, assetable_id, assetable_type, type, width, height, created_at, updated_at
+client_applications id, name, url, support_url, callback_url, key, secret, user_id, created_at, updated_at, walledgarden
+complementary_courses id, course, institution, year, workload, description, created_at, updated_at
+conversations id, sender_id, recipient_id, created_at, updated_at
+course_enrollments id, user_id, course_id, state, token, email, role, type, created_at, updated_at, last_accessed_at
+course_resources id, name, attachment_file_name, attachment_file_size, attachment_content_type, attachment_updated_at, created_at, updated_at, attachable_id, attachable_type
+courses id, name, description, path, created_at, updated_at, environment_id, workload, subscription_type, user_id, published, destroy_soon, blocked
+documents id, attachment_file_name, attachment_content_type, attachment_file_size, attachment_updated_at, state, published, created_at, updated_at, livredoc_id
+educations id, educationable_type, educationable_id, user_id, created_at, updated_at
+enrollments id, user_id, subject_id, created_at, updated_at, role, graduated, grade
+environments id, name, description, path, avatar_file_name, avatar_content_type, avatar_file_size, avatar_updated_at, user_id, published, created_at, updated_at, initials, destroy_soon, blocked
+event_educations id, name, role, year, created_at, updated_at
+exercises id, maximum_grade, created_at, updated_at
+experiences id, title, company, start_date, end_date, current, description, user_id, created_at, updated_at
+folders id, name, date_modified, user_id, parent_id, space_id
+friendships id, user_id, friend_id, requested_at, accepted_at, status 
+groups_users group_id, user_id
+high_schools id, institution, end_year, description, created_at, updated_at
+higher_educations id, kind, institution, start_year, end_year, description, course, research_area, created_at, updated_at
+invitations id, email, token, hostable_type, hostable_id, user_id, created_at, updated_at
+lectures id, name, created_at, updated_at, rating_average, user_id, media_updated_at, view_count, lectureable_type, lectureable_id, is_clone, subject_id, position, blocked
+messages id, sender_id, recipient_id, sender_deleted, recipient_deleted, subject, body, read_at, created_at, updated_at
+myfiles id, folder_id, user_id, attachment_file_name, attachment_content_type, attachment_file_size, attachment_updated_at
+oauth_nonces id, nonce, timestamp, created_at, updated_at
+oauth_tokens id, user_id, type, client_application_id, token, secret, callback_url, verifier, scope, authorized_at, invalidated_at, expires_at, created_at, updated_at
+pages id, body, created_at, updated_at
+plans id, state, name, video_storage_limit, members_limit, file_storage_limit, user_id, billable_id, billable_type, created_at, updated_at, billable_audit, type, current
+questions id, exercise_id, statement, explanation, position, created_at, updated_at
+quotas id, multimedia, files, billable_id, billable_type, created_at, updated_at
+rates id, rater_id, rateable_id, rateable_type, stars, dimension, created_at, updated_at
+results id, user_id, exercise_id, started_at, finalized_at, state, grade, duration, created_at, updated_at
+schema_migrations version
+seminars id, media_file_name, media_content_type, media_file_size, media_updated_at, external_resource, external_resource_type, created_at, updated_at, published, state, original_file_name, original_content_type, original_file_size, original_updated_at, job
+sessions id, session_id, data, updated_at, created_at
+social_networks id, name, url, user_id, created_at, updated_at
+spaces id, name, description, created_at, updated_at, user_id, avatar_file_name, avatar_content_type, avatar_file_size, avatar_updated_at, removed, members_count, course_id, published, destroy_soon, blocked
+status_resources id, provider, thumb_url, title, description, link, status_id, created_at, updated_at
+status_user_associations id, user_id, status_id, created_at, updated_at
+statuses id, text, in_response_to_id, in_response_to_type, created_at, updated_at, user_id, statusable_id, statusable_type, logeable_type, logeable_id, action, type, compound, compound_log_id, compound_visible_at
+subjects id, name, description, user_id, space_id, created_at, updated_at, visible, finalized, blocked
+taggings id, tag_id, taggable_id, taggable_type, tagger_id, tagger_type, context, created_at
+tags id, name
+user_environment_associations id, user_id, environment_id, created_at, updated_at, role 
+user_settings id, user_id, view_mural, explored
+user_space_associations id, user_id, space_id, role, created_at, updated_at
+users id, login, email, description, avatar_id, crypted_password, password_salt, created_at, updated_at, persistence_token, activation_code, activated_at, login_slug, notify_messages, notify_followships, notify_community_news, last_login_at, zip, birthday, gender, profile_public, role, score, first_name, last_name, my_activity, removed, single_access_token, perishable_token, login_count, failed_login_count, current_login_at, current_login_ip, last_login_ip, oauth_token, oauth_secret, avatar_file_name, avatar_content_type, avatar_file_size, avatar_updated_at, auto_status, has_invited, friends_count, mobile, localization, birth_localization, languages, favorite_quotation, destroy_soon, recovery_token, channel
+votes id, vote, voteable_id, voteable_type, voter_id, voter_type, created_at, updated_at

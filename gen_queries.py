@@ -57,7 +57,7 @@ def generate_sql_scripts(source_folder: str, output_folder: str = 'queries'):
             print(f"Success: File '{full_sql_path}' was generated.")
 
 if __name__ == "__main__":
-    target_folder = 'source'
+    target_folder = 'tables_structures'
 
     if len(sys.argv) > 1:
         target_folder = sys.argv[1]
