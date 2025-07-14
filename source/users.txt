@@ -1,0 +1,53 @@
+id Identificador do usuário
+login Login para conectar-se
+email E-mail
+description Descrição
+avatar_id Identificador do avatar/foto
+crypted_password Senha criptografada
+password_salt Senha validadora
+created_at Data/hora registro do perfil
+updated_at Data/hora última atualização do perfil
+persistence_token Token de persistência para o usuário
+activation_code Código de ativação
+activated_at Data/hora da ativação do usuário
+login_slug Slug de Login
+# notify_messages Notificar mensagens #não existe mais no banco 
+# notify_followships Sequências de notificar #não existe mais no banco 
+# notify_community_news Notificar notícias da comunidade #não existe mais no banco 
+last_login_at Data/hora do último acesso/Login
+zip Arquivo avatar/foto
+birthday Data aniversária
+gender Gênero
+profile_public Qualificador se o perfil é público
+role Papel/função
+score Ponto
+first_name Primeiro nome
+last_name Último nome
+my_activity Registro de atividade
+removed Situação do usuário
+160
+single_access_token Token de acesso único
+perishable_token Token temporário
+login_count Quantitativo de acessos
+failed_login_count Quantitativo de falhas no acesso/Login
+current_login_at Data/hora último acesso/Login
+current_login_ip IP de Login atual
+last_login_ip IP do último Login
+oauth_token Token do serviço OAuth
+oauth_secret Segredo OAuth
+avatar_file_name Nome do arquivo de avatar/foto
+avatar_content_type Tipo de arquivo avatar/foto
+avatar_file_size Tamanho do arquivo de avatar
+avatar_updated_at Última atualização do avatar/foto de perfil
+auto_status Auto status
+has_invited Registro se foi convidado
+friends_count Quantitativo de amigos
+# mobile_localization Localidade onde reside #não existe mais no banco 
+mobile novo campo de tipo de dispositivo
+localization novo campo de localização
+birth_localization Localização de nascimento
+languages Línguas
+favorite_quotation Citação favorita
+destroy_soon Destrua logo
+recovery_token Token de recuperação
+channel Canal 

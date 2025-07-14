@@ -1,0 +1,13 @@
+select
+    id,
+    sender_id,
+    recipient_id,
+    sender_deleted,
+    recipient_deleted,
+    subject,
+    body,
+    read_at,
+    created_at,
+    updated_at
+from
+    messages;

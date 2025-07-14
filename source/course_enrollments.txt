@@ -1,0 +1,12 @@
+id Identificador da matrícula
+user_id Identificador do usuário que criou
+course_id Identificador do curso com o qual se referencia
+state Estado
+token Símbolo
+email E-mail
+role Papel
+type Tipo
+created_at Data/hora da criação
+updated_at Data/hora da última atualização
+# last_accessed_at Data/hora do último acesso #não existe mais 
+last_seen_at nova coluna de acesso 

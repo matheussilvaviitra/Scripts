@@ -1,0 +1,9 @@
+select
+    id,
+    user_id,
+    friend_id,
+    requested_at,
+    accepted_at,
+    status
+from
+    friendships;

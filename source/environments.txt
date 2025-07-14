@@ -1,0 +1,15 @@
+id Identificador do ambiente
+name Nome do ambiente
+description Descrição do ambiente
+# path Caminho/link #não existe mais no banco
+avatar_file_name Nome do arquivo de avatar do ambiente
+avatar_content_type Tipo do arquivo de avatar do ambiente
+avatar_file_size Tamanho do arquivo de avatar
+avatar_updated_at Data/hora da última atualização do avatar
+user_id Identificador que criou
+published Situação de publicação
+created_at Data/hora da criação
+updated_at Data/hora da última atualização
+initials Iniciais
+destroy_soon Destrua logo
+# blocked Status de bloqueio #não existe mais no banco

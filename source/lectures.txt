@@ -1,0 +1,16 @@
+id Identificador da aula
+name Nome da aula
+created_at Data/hora da criação
+updated_at Data/hora da última atualização
+rating_average Classificação média das avaliações
+user_id Identificador do usuário que criou
+media_updated_at Data/hora da última atualização do envio da mídia
+view_count Contagem de visualizações da aula
+lectureable_type Tipo de leitura
+lectureable_id Identificador do tipo de leitura com o qual se referencia
+# is_clone Registro se é uma cópia de outra aula #não existe mais no banco
+cloneable_id #novo campo para clonagem no banco
+subject_id Identificador do módulo com o qual se referencia
+position Posição no ranking do módulo
+# blocked Situação bloqueio #não existe mais no banco
+locked novo campo para bloqueio

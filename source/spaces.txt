@@ -1,0 +1,17 @@
+id Identificador da disciplina
+name Nome do curso
+description Descrição do curso
+created_at Data/hora da criação
+updated_at Data/hora da última atualização
+user_id Identificador do usuário que criou
+avatar_file_name Nome do arquivo de avatar da disciplina
+avatar_content_type Tipo do arquivo de avatar da disciplina
+avatar_file_size Tamanho do arquivo de avatar
+avatar_updated_at Data/hora da última atualização do avatar
+removed Status de remoção
+members_count Quantitativo de membros
+course_id Identificador do curso com o qual se referencia
+published Situação de publicação
+destroy_soon Destrua logo
+# blocked Status de bloqueio #não existe mais no banco
+removed # novo campo de status

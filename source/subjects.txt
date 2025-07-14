@@ -1,0 +1,11 @@
+id Identificador do módulo
+name Nome do módulo
+description Descrição do módulo
+user_id Identificador do usuário que criou
+space_id Identificador da disciplina com o qual se referencia
+created_at Data/hora da criação
+updated_at Data/hora da última atualização
+visible Status de visibilidade
+# finalized Situação término #não existe mais no banco
+track_progress novo campo para Situação 
+# Blocked Situação bloqueio #não existe mais no banco 

@@ -1,0 +1,4 @@
+id Identificador do exercício
+maximum_grade Nota máxima do exercício
+created_at Data/hora da criação
+updated_at Data/hora da última atualização

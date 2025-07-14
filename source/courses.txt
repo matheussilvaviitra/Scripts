@@ -1,0 +1,13 @@
+id Identificador do curso
+name Nome do curso
+description Descrição do curso
+#path Caminho #não existe mais no banco 
+created_at Data/hora da criação
+updated_at Data/hora da última atualização
+environment_id Identificador do ambiente com o qual se referencia
+workload Carga de trabalho
+subscription_type Tipo de assinatura
+user_id Identificador do usuário que criou
+published Situação de publicação
+destroy_soon Destrua logo
+#blocked Status de bloqueio # não existe mais no banco

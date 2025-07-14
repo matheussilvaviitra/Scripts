@@ -1,0 +1,18 @@
+select
+    id,
+    name,
+    description,
+    created_at,
+    updated_at,
+    user_id,
+    avatar_file_name,
+    avatar_content_type,
+    avatar_file_size,
+    avatar_updated_at,
+    removed,
+    members_count,
+    course_id,
+    published,
+    destroy_soon
+from
+    spaces;

@@ -1,0 +1,16 @@
+id Identificador da ação
+text Texto descritivo
+in_response_to_id Identificador do usuário que deseja a resposta
+in_response_to_type Identificador do tipo de resposta com o qual se referencia
+created_at Data/hora da criação
+updated_at Data/hora da última atualização
+user_id Identificador do usuário que criou
+statusable_id Identificador do status com o qual se referencia
+statusable_type Tipo de status
+logeable_type Tipo registro
+logeable_id Identificador registro
+action Ação (create, update)
+type Tipo (log, compound_log, activity, answer, help)
+compound Composição
+compound_log_id Identificador do log de composição
+compound_visible_at Data/hora em que foi visualizado

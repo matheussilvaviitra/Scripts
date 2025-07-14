@@ -1,0 +1,13 @@
+select
+    id,
+    user_id,
+    exercise_id,
+    started_at,
+    finalized_at,
+    state,
+    grade,
+    duration,
+    created_at,
+    updated_at
+from
+    results;

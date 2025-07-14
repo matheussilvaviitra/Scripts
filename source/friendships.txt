@@ -1,0 +1,6 @@
+id Identificador da amizade
+user_id Identificador do usuário solicitante
+friend_id Identificador do usuário amigo
+requested_at Data/hora da solicitação de amizade
+accepted_at Data/hora da aceitação de amizade
+status Status de amizade

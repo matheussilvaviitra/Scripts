@@ -1,0 +1,14 @@
+select
+    id,
+    name,
+    description,
+    created_at,
+    updated_at,
+    environment_id,
+    workload,
+    subscription_type,
+    user_id,
+    published,
+    destroy_soon
+from
+    courses;

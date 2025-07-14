@@ -1,0 +1,14 @@
+select
+    id,
+    user_id,
+    course_id,
+    state,
+    token,
+    email,
+    role,
+    type,
+    created_at,
+    updated_at,
+    last_seen_at
+from
+    course_enrollments;

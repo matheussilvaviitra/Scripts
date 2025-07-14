@@ -1,0 +1,10 @@
+id Identificador da mensagem
+sender_id Identificador do usuário remetente
+recipient_id Identificador do usuário destinatário
+sender_deleted Situação de enviou
+recipient_deleted Situação de recebimento
+subject Assunto da mensagem
+body Texto da mensagem
+read_at Data/hora da leitura
+created_at Data/hora da criação
+updated_at Data/hora da última atualização

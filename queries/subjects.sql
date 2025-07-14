@@ -1,0 +1,12 @@
+select
+    id,
+    name,
+    description,
+    user_id,
+    space_id,
+    created_at,
+    updated_at,
+    visible,
+    track_progress
+from
+    subjects;

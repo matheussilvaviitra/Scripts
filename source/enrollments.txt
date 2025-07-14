@@ -1,0 +1,8 @@
+id Identificador da matrícula
+user_id Identificador do usuário
+subject_id Identificador do módulo com o qual se referenciass
+created_at Data/hora da criação
+updated_at Data/hora da última atualização
+role Papel (environment_admin, teacher, member e tutor)
+# graduated Graduado #não existe mais no banco
+# grade Grau #não existe mais no banco

@@ -1,0 +1,10 @@
+id Identificador do resultado
+user_id Identificador usuário que obteve o resultado
+exercise_id Identificador do exercício com o qual se referencia
+started_at Data/hora de início
+finalized_at Data/hora de término
+state Estado
+grade Nota obtida
+duration Duração na realização do exercício
+created_at Data/hora da criação
+updated_at Data/hora da última atualização

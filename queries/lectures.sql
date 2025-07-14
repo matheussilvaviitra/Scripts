@@ -1,0 +1,17 @@
+select
+    id,
+    name,
+    created_at,
+    updated_at,
+    rating_average,
+    user_id,
+    media_updated_at,
+    view_count,
+    lectureable_type,
+    lectureable_id,
+    cloneable_id,
+    subject_id,
+    position,
+    locked
+from
+    lectures;

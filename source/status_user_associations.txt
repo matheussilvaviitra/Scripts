@@ -1,0 +1,5 @@
+id Identificador das associações
+user_id Identificador do usuário
+status_id Identificador de status
+created_at Data/hora de criação
+updated_at Data/hora da última atualização

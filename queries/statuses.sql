@@ -1,0 +1,19 @@
+select
+    id,
+    text,
+    in_response_to_id,
+    in_response_to_type,
+    created_at,
+    updated_at,
+    user_id,
+    statusable_id,
+    statusable_type,
+    logeable_type,
+    logeable_id,
+    action,
+    type,
+    compound,
+    compound_log_id,
+    compound_visible_at
+from
+    statuses;
