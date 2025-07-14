@@ -23,7 +23,7 @@ def create_dict_from_file(file_path: str) -> dict:
         print(f"An error occurred while processing file '{file_path}': {e}")
     return result_dict
 
-def generate_sql_scripts(source_folder: str, output_folder: str = 'queries'):
+def generate_sql_scripts(source_folder: str, output_folder: str = 'SQL'):
     if not os.path.isdir(source_folder):
         print(f"Error: Source directory '{source_folder}' not found.")
         return
@@ -57,7 +57,7 @@ def generate_sql_scripts(source_folder: str, output_folder: str = 'queries'):
             print(f"Success: File '{full_sql_path}' was generated.")
 
 if __name__ == "__main__":
-    target_folder = 'tables_structures'
+    target_folder = '../tables_structures'
 
     if len(sys.argv) > 1:
         target_folder = sys.argv[1]
