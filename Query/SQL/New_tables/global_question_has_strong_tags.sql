@@ -1,0 +1,8 @@
+select
+    id,
+    global_question_id,
+    strong_tag_id,
+    created_at,
+    updated_at
+from
+    global_question_has_strong_tags;

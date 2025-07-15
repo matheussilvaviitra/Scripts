@@ -1,0 +1,11 @@
+select
+    id,
+    course_id,
+    users_count,
+    users_who_graduated,
+    users_who_accessed,
+    users_who_not_accessed,
+    created_at,
+    updated_at
+from
+    course_statistics;

@@ -1,0 +1,9 @@
+id # identificador da submissão
+state # estado da submissão
+finalized_at # data de finalização
+user_id # identificador do usuário
+questionable_id # identificador do questionável
+questionable_type # tipo do questionável
+created_at # data de criação
+updated_at # data de atualização
+lecture_id # identificador da aula 

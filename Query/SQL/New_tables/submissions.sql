@@ -1,0 +1,12 @@
+select
+    id,
+    state,
+    finalized_at,
+    user_id,
+    questionable_id,
+    questionable_type,
+    created_at,
+    updated_at,
+    lecture_id
+from
+    submissions;

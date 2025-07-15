@@ -1,0 +1,18 @@
+id # identificador da tarefa
+grade_group_id # identificador do grupo de notas
+resource_id # identificador do recuro
+resource_type # tipo de recursos
+title # título da tarefa
+description # descrição da tarefa
+max_grade # nota máxima possível
+grade_weight # peso na grade
+position # posição
+mural_enabled # disponibilidade no mural
+accepting # aceitando submissões
+require_attachment # requer anexos
+open_date # data de abertura
+due_date # data de fechamento
+deleted_at # data de exclusão
+created_at # data de criação
+updated_at # data de atualização
+status # status da tarefa

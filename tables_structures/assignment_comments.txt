@@ -1,0 +1,7 @@
+id #identificador do comentário
+user_assignment_id # identificador da associação do usuário e tarefa 
+user_id # identificador do usuário
+body # corpo da mensagem 
+deleted_at # data de exclusão
+created_at # data de criação 
+updated_at # data de atualização

@@ -1,0 +1,21 @@
+select
+    id,
+    grade_group_id,
+    resource_id,
+    resource_type,
+    title,
+    description,
+    max_grade,
+    grade_weight,
+    position,
+    mural_enabled,
+    accepting,
+    require_attachment,
+    open_date,
+    due_date,
+    deleted_at,
+    created_at,
+    updated_at,
+    status
+from
+    assignments;

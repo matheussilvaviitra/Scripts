@@ -1,0 +1,13 @@
+select
+    id,
+    attendable_id,
+    attendable_type,
+    lecture_id,
+    title,
+    date,
+    lock_self_presence_at,
+    duration,
+    created_at,
+    updated_at
+from
+    attendances;

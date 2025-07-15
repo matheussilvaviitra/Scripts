@@ -1,0 +1,8 @@
+id # intendificador de notas extras
+grade_group_id # identificador do grupo de notas
+user_id # intendificador do usuário 
+grade # nota 
+description # descrição
+deleted_at # data de exclusão
+created_at # data de criação 
+updated_at # data de atualização

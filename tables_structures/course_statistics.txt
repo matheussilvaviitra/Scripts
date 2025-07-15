@@ -1,0 +1,8 @@
+id # identificador das estatísticas
+course_id # identificador do curso 
+users_count # número de usuários
+users_who_graduated # número de usuários que se graduaram 
+users_who_accessed # número de usuários que acessaram
+users_who_not_accessed # número de usuários que não acessaram
+created_at # data de criação
+updated_at # data de atualização

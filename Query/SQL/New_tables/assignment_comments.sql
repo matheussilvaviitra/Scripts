@@ -1,0 +1,10 @@
+select
+    id,
+    user_assignment_id,
+    user_id,
+    body,
+    deleted_at,
+    created_at,
+    updated_at
+from
+    assignment_comments;

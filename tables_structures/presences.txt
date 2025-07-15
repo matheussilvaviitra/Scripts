@@ -1,0 +1,6 @@
+id # identificador da presença
+attendance_id # identificador do comparecimento
+user_id # identificador do usuário
+created_at # data de criação
+updated_at # data de atualização
+status # status da presença

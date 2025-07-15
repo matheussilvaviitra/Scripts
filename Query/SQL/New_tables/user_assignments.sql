@@ -1,0 +1,12 @@
+select
+    id,
+    assignment_id,
+    user_id,
+    grade,
+    submitted_at,
+    deleted_at,
+    created_at,
+    updated_at,
+    status
+from
+    user_assignments;

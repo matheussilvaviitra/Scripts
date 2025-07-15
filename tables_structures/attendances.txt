@@ -1,0 +1,10 @@
+id # identificador do comparecimento
+attendable_id # identificador da atividade 
+attendable_type # tipo da atividade 
+lecture_id # identificador da aula
+title # título
+date # data 
+lock_self_presence_at #  data de registro 
+duration # duração
+created_at # data de criação
+updated_at # data de atualização

@@ -1,0 +1,9 @@
+id # identificadorda ssiciação 
+assignment_id # identificador da tarefa
+user_id # identificador do usuário
+grade # nota
+submitted_at # data de submissão
+deleted_at # data de exclusão
+created_at # data de criação
+updated_at # data de atualização
+status # estado da associação

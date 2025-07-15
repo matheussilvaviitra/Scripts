@@ -1,0 +1,11 @@
+select
+    id,
+    statement,
+    explanation,
+    position,
+    created_at,
+    updated_at,
+    analytics_sync,
+    analytics_id
+from
+    global_questions;

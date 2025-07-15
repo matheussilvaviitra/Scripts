@@ -1,0 +1,11 @@
+select
+    id,
+    grade_group_id,
+    user_id,
+    grade,
+    description,
+    deleted_at,
+    created_at,
+    updated_at
+from
+    extra_grades;
